@@ -37,6 +37,16 @@ module.exports = {
                 include: APP_PATH
             },
             {
+                test: /\.js[x]?$/,
+                exclude: NODE_MODULES_PATH,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ["@babel/preset-react"]
+                    }
+                }
+            },
+            {
                 test: /\.js?$/,
                 use: {
                     loader: 'babel-loader?cacheDirectory=true',
