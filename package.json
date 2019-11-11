@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "@babel/preset-stage-3": "^7.0.0",
+    "@svgr/webpack": "^4.3.3",
     "antd": "^3.24.1",
     "autoprefixer": "^9.6.5",
     "awesome-typescript-loader": "^5.2.1",
