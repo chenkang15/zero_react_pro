@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T01:39:27.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.6.2" etag="_qrgdTatZz7fcAtFmAHL" type="github"><diagram id="T7tzm3FkviQlC0tK8gsh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-29T02:04:00.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="F5YasSnwqxw8ZByszC9w" version="15.6.2" type="github">
+  <diagram id="T7tzm3FkviQlC0tK8gsh" name="Page-1">
+    <mxGraphModel dx="857" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-2" value="master 服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="460" height="190" as="geometry">
+            <mxRectangle x="70" y="310" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-1" value="module 服务&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Bxs7B9SBnaIntnA3-Ru3-4">
+          <mxGeometry x="290" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-18" value="golang Web 服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Bxs7B9SBnaIntnA3-Ru3-4">
+          <mxGeometry x="10" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-48" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="Bxs7B9SBnaIntnA3-Ru3-4">
+          <mxGeometry x="190" y="85" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-50" value="grpc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Bxs7B9SBnaIntnA3-Ru3-4">
+          <mxGeometry x="210" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-5" value="BatchServer DLL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-8" value="Web 客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-9" value="手机App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-37" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-38" value="websocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-39" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-40" value="websocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-43" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="220" width="39" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-44" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="220" width="39" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-45" value="HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-46" value="HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bxs7B9SBnaIntnA3-Ru3-49" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="44" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
